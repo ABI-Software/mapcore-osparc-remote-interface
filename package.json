@@ -1,0 +1,43 @@
+{
+  "name": "@abi-software/mapcore-osparc-remote-interface",
+  "version": "0.1.0",
+  "description": "MAPcore oSPARC remote interface.",
+  "main": "build/mapcore-osparc-remote-interface.js",
+  "files": [
+    "package.json",
+    "LICENSE",
+    "README.rst",
+    "build/mapcore-osparc-remote-interface.js",
+    "build/mapcore-osparc-remote-interface.js.map",
+    "webpack.config.js"
+  ],
+  "scripts": {
+    "build": "webpack --mode=none",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABI-Software/mapcore-osparc-remote-interface.git"
+  },
+  "keywords": [
+    "library",
+    "physiome",
+    "bioengineering",
+    "modelling"
+  ],
+  "author": "Hugh Sorby <h.sorby@auckland.ac.nz>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ABI-Software/mapcore-osparc-remote-interface/issues"
+  },
+  "homepage": "https://github.com/ABI-Software/mapcore-osparc-remote-interface",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "babel-preset-minify": "^0.5.0",
+    "babel-loader": "^8.0.5"
+  },
+  "dependencies": {}
+}
