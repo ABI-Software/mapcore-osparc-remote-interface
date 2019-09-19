@@ -1,6 +1,6 @@
 {
   "name": "@abi-software/mapcore-osparc-remote-interface",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MAPcore oSPARC remote interface.",
   "main": "build/mapcore-osparc-remote-interface.js",
   "files": [
